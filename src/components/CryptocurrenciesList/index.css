@@ -1,1 +1,33 @@
 /* Write your CSS code here */
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.title {
+  color: #00e7ff;
+  font-size: 40px;
+}
+.image {
+  width: 500px;
+}
+.list-container {
+  padding: 1px;
+  border: 5px solid #00e7ff;
+  border-radius: 10px;
+}
+.list-header {
+  list-style-type: none;
+  background-color: #092e33;
+  color: #ffffff;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
